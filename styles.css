@@ -4,6 +4,11 @@ body {
   font-family: 'Pirata One', cursive;;
 }
 
+@font-face {
+font-family: 'Pirata One', cursive;
+src: url(fontofallknowledge.woff);
+}
+
 header {
   background-color: #333;
   color: #ffffff;
