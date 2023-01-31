@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pieces of Eight</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>FAQ</h1>
+        </div>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="Text-Analysis.html">Text-Analysis</a>
+            <a href="Personal-Review.html">Personal Review</a>
+            <a class="active "href="FAQ.html">FAQ</a>
+          </div>
+          
+              <div class="layout">
+                <div class="accordion">
+                    <div class="accordion__question">
+                        <p>How did Spider John Get his name?</p>
+          
+                    </div>
+                    <div class="accordion__answer">
+                        <p>His name, Spider John, was earned through his daring 
+                            feat of surviving the capture of the infamous pirate ship, 
+                            Red Viper, and seeking justice for the loss of his best 
+                            friend by killing the naval officer and spy responsible.
+                        </p>
+          
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion__question">
+                        <p>What happened to Spider John's family while he was gone?</p>
+          
+                    </div>
+                    <div class="accordion__answer">
+                        <p>
+                            While he was away, Spider John's wife faced a difficult time. 
+                            She was forced into prostitution and later suffered physical 
+                            abuse at the hands of Jeremy Stoneham. In an effort to escape 
+                            this traumatic experience, she boarded the ship Margaret, 
+                            captained by Samuel Wescott, and sailed to England with her son.
+
+                        </p>
+          
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion__question">
+
+                        <p>Who killed Calvin Garrick?</p>
+          
+                    </div>
+                    <div class="accordion__answer">
+                        <p>
+                            Calvin Garrick met a tragic end at the hands of Trawley, Gray, 
+                            Simon, and Woodley, who ruthlessly took his life to preserve 
+                            their secrecy in pursuit of a coveted treasure.
+                        </p>
+                    
+                    </div>
+                </div>
+            
+
+            <div class="accordion">
+                <div class="accordion__question">
+
+                    <p>Who actually killed Jeremy Stoneham?</p>
+      
+                </div>
+                <div class="accordion__answer">
+                    <p>
+                        Jeremy Stoneham death was the result of a tragic accident caused 
+                        by Spider John's brother-in-law, Enoch.
+                    </p>
+      
+                </div>
+            </div>
+       
+        </div>
+
+        <div class="layout">
+            
+            <div class="accordion">
+                <div class="accordion__question">
+                    <p>Who was cheating on their wife?</p>
+      
+                </div>
+                <div class="accordion__answer">
+                    <p>Mister Dawes, one of Spider Johns suspects in the
+                        killing of Jeremy Stoneham, was caught cheating on his 
+                       wife during Spiders investigation.</p>
+      
+                </div>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion__question">
+
+                    <p>How did Spider John's friends identify him in Nantucket?</p>
+      
+                </div>
+                <div class="accordion__answer">
+                    <p>
+                        Spider John has a distinctive habit of tilting his head back in a particular 
+                        manner when he smokes, and this mannerism has become a telltale sign to his 
+                        friends for recognizing him.
+                    </p>
+                
+                </div>
+            </div>
+        
+
+        <div class="accordion">
+            <div class="accordion__question">
+
+                <p>Who has a crush on Spider John?</p>
+  
+            </div>
+            <div class="accordion__answer">
+                <p>
+                    Ruth has a crush on Spider John, but he is oblvious to the fact.
+                </p>
+  
+            </div>
+        </div>
+        <div class="accordion">
+            <div class="accordion__question">
+                <p>Will there be another book in the Spider John Mystery?</p>
+  
+            </div>
+            <div class="accordion__answer">
+                <p>
+                    At the conclusion of the book, it becomes evident that the journey 
+                    to find Spider John's family will be the focus of the next installment 
+                    in the series. This is reinforced by the fact that the group unites in 
+                    a vow to aid Spider John in his search. Their resolve is a testament to 
+                    their loyalty and friendship, as they stand by his side, determined to 
+                    uncover the truth about his past.
+
+                </p>
+  
+            </div>
+        </div>
+    </div>
+
+
+
+            <script>
+                let answers=document.querySelectorAll(".accordion");
+                answers.forEach((event)=>{
+                    event.addEventListener('click',()=>{
+                        if(event.classList.contains("active")){
+                            event.classList.remove("active");
+                        }
+                        else{
+                            event.classList.add("active");
+                        }
+                    })
+                })
+            </script>
+</body>
+</html>
